@@ -1,0 +1,25 @@
+{
+  "name": "dsa_searchengine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scrape.js",
+    "merge": "node utils/merge.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "natural": "^8.1.0",
+    "nodemon": "^3.1.11",
+    "puppeteer": "^24.34.0",
+    "stopword": "^3.1.5"
+  },
+  "engines" : {
+    "node": ">=18.0.0"
+  }
+}
